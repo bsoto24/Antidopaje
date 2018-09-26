@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Antidopaje</string>
+    <string name="search_hint">Medicamento o componente activo</string>
+    <string name="find_out">Infórmate</string>
+    <string name="sources">Fuentes</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="forbidden_list">Lista prohibida de medicamentos</string>
+    <string name="antidoping_control">Control antidopaje</string>
+    <string name="risks">Riesgos y sanciones</string>
+    <string name="aut">Autorizacion de uso terapeutico AUT</string>
+    <string name="title_activity_one">OneActivity</string>
+    <string name="title_activity_two">TwoActivity</string>
+</resources>

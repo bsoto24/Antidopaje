@@ -1,0 +1,168 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">?themeColorPrimary</item>
+        <item name="colorPrimaryDark">?themeColorPrimaryDark</item>
+        <item name="colorAccent">?themeColorAccent</item>
+
+        <item name="themeSizeTextSmall">@dimen/textSmall</item>
+        <item name="themeSizeTextContent">@dimen/textContent</item>
+        <item name="themeSizeTextSubTitle">@dimen/textSubTitle</item>
+        <item name="themeSizeTextTitle">@dimen/textTitle</item>
+        <item name="themeSizeTextLarge">@dimen/textLarge</item>
+        <item name="themeSizeTextExtra">@dimen/textExtra</item>
+
+        <item name="themeSizeTextButton">@dimen/textButton</item>
+
+        <item name="themeColorSelected">@color/green</item>
+        <item name="themeColorNotSelected">@color/lightBlueGray</item>
+        <item name="themeColorError">@color/red</item>
+
+        <item name="themeSizeCardCornerRadius">@dimen/cardCornerRadius</item>
+        <item name="themeSizeCardMargin">@dimen/cardMargin</item>
+        <item name="themeSizeCardElevation">@dimen/cardElevation</item>
+        <item name="themeColorCardBackground">@color/whiteSmoke</item>
+
+    </style>
+
+    <style name="AppTheme.Light">
+
+        <item name="themeColorPrimary">@color/blue</item>
+        <item name="themeColorPrimaryDark">@color/darkBlue</item>
+        <item name="themeColorPrimaryLight">@color/lightBlue</item>
+
+        <item name="themeColorAccent">@color/yellow</item>
+        <item name="themeColorAccentDark">@color/darkYellow</item>
+        <item name="themeColorAccentLight">@color/lightYellow</item>
+
+        <item name="themeColorBackground">@color/white</item>
+
+        <item name="themeColorTextOnPrimary">@color/white</item>
+        <item name="themeColorTextOnAccent">@color/darkBlueGray</item>
+        <item name="themeColorTextOnBackground">@color/darkBlueGray</item>
+
+    </style>
+
+    <style name="AppTheme.RaisedButtonPrimary">
+        <item name="android:textSize">?themeSizeTextButton</item>
+        <item name="android:textColor">?themeColorTextOnPrimary</item>
+        <item name="backgroundTint">?themeColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">?fontFamily</item>
+    </style>
+
+    <style name="AppTheme.RaisedButtonAccent">
+        <item name="android:textSize">?themeSizeTextButton</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?themeColorTextOnAccent</item>
+        <item name="backgroundTint">?themeColorAccent</item>
+        <item name="android:fontFamily">?fontFamily</item>
+    </style>
+
+    <style name="AppTheme.ToolbarPrimary">
+        <item name="android:background">?themeColorPrimary</item>
+        <item name="android:textColorPrimary">?themeColorTextOnPrimary</item>
+        <item name="android:textColorSecondary">?themeColorTextOnAccent</item>
+    </style>
+
+    <style name="AppTheme.ToolbarAccent">
+        <item name="android:background">?themeColorAccent</item>
+        <item name="android:textColorPrimary">?themeColorTextOnAccent</item>
+        <item name="android:textColorSecondary">?themeColorTextOnPrimary</item>
+    </style>
+
+    <style name="AppTheme.TextSmall">
+        <item name="android:textSize">?themeSizeTextSmall</item>
+        <item name="android:fontFamily">?themeFontFamily</item>
+        <item name="android:textColor">?themeColorTextOnBackground</item>
+    </style>
+
+    <style name="AppTheme.TextContent">
+        <item name="android:textSize">?themeSizeTextContent</item>
+        <item name="android:fontFamily">?themeFontFamily</item>
+        <item name="android:textColor">?themeColorTextOnBackground</item>
+    </style>
+
+    <style name="AppTheme.TextSubTitle">
+        <item name="android:textSize">?themeSizeTextSubTitle</item>
+        <item name="android:fontFamily">?themeFontFamily</item>
+        <item name="android:textColor">?themeColorTextOnBackground</item>
+    </style>
+
+    <style name="AppTheme.TextTitle">
+        <item name="android:textSize">?themeSizeTextTitle</item>
+        <item name="android:fontFamily">?themeFontFamily</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?themeColorTextOnBackground</item>
+    </style>
+
+    <style name="AppTheme.TextLarge">
+        <item name="android:textSize">?themeSizeTextLarge</item>
+        <item name="android:fontFamily">?themeFontFamily</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?themeColorTextOnBackground</item>
+    </style>
+
+    <style name="AppTheme.TextExtraDark">
+        <item name="android:textSize">?themeSizeTextExtra</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">?themeFontFamily</item>
+        <item name="android:textColor">?themeColorTextOnBackground</item>
+    </style>
+
+    <style name="AppTheme.TextExtraLight">
+        <item name="android:textSize">?themeSizeTextExtra</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">?themeFontFamily</item>
+        <item name="android:textColor">?themeColorTextOnPrimary</item>
+    </style>
+
+    <style name="AppTheme.Switch">
+        <item name="colorControlActivated">?themeColorSelected</item>
+        <item name="colorSwitchThumbNormal">?themeColorNotSelected</item>
+        <item name="android:colorForeground">?themeColorNotSelected</item>
+    </style>
+
+    <style name="AppTheme.CardView">
+        <item name="android:layout_margin">?themeSizeCardMargin</item>
+        <item name="cardCornerRadius">?themeSizeCardCornerRadius</item>
+        <item name="cardElevation">?themeSizeCardElevation</item>
+        <item name="cardBackgroundColor">?themeColorCardBackground</item>
+    </style>
+
+    <style name="AppTheme.container">
+        <item name="android:background">?themeColorBackground</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.ErrorText">
+        <item name="android:textColor">?themeColorError</item>
+        <item name="android:textSize">?themeSizeTextSmall</item>
+    </style>
+
+    <style name="AppTheme.HintText">
+        <item name="android:textColor">?themeColorNotSelected</item>
+        <item name="android:textSize">?themeSizeTextSmall</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/AppTheme.HintText</item>
+        <item name="errorTextAppearance">@style/AppTheme.ErrorText</item>
+        <item name="android:fontFamily">?themeFontFamily</item>
+        <item name="passwordToggleTint">?themeColorTextOnBackground</item>
+        <item name="android:textColor">?themeColorTextOnBackground</item>
+        <item name="android:textColorHint">?themeColorTextOnBackground</item>
+        <item name="colorControlNormal">?themeColorTextOnBackground</item>
+        <item name="colorControlActivated">?themeColorPrimary</item>
+        <item name="colorControlHighlight">?themeColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Light.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Light.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

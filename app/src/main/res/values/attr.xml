@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="themeColorPrimary" format="reference" />
+    <attr name="themeColorPrimaryDark" format="reference" />
+    <attr name="themeColorPrimaryLight" format="reference" />
+
+    <attr name="themeColorAccent" format="reference" />
+    <attr name="themeColorAccentDark" format="reference" />
+    <attr name="themeColorAccentLight" format="reference" />
+
+    <attr name="themeColorBackground" format="reference" />
+
+    <attr name="themeColorTextOnPrimary" format="reference" />
+    <attr name="themeColorTextOnAccent" format="reference" />
+    <attr name="themeColorTextOnBackground" format="reference" />
+
+    <attr name="themeSizeTextContent" format="reference" />
+    <attr name="themeSizeTextButton" format="reference" />
+    <attr name="themeSizeTextTitle" format="reference" />
+    <attr name="themeSizeTextSubTitle" format="reference" />
+    <attr name="themeSizeTextSmall" format="reference" />
+    <attr name="themeSizeTextLarge" format="reference" />
+    <attr name="themeSizeTextExtra" format="reference" />
+
+    <attr name="themeFontFamily" format="reference" />
+    
+    <attr name="themeColorSelected" format="reference" />
+    <attr name="themeColorNotSelected" format="reference" />
+    <attr name="themeColorError" format="reference" />
+
+    <attr name="themeSizeCardElevation" format="reference" />
+    <attr name="themeSizeCardCornerRadius" format="reference" />
+    <attr name="themeSizeCardMargin" format="reference" />
+    <attr name="themeColorCardBackground" format="reference" />
+</resources>
